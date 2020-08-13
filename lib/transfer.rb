@@ -17,6 +17,7 @@ class Transfer
     if @sender.balance >= @amount
       #complete transaction
       else 
+        @status = "rejected"
         return "Transaction rejected. Please check your account balance."
       end 
       
