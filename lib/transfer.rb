@@ -1,5 +1,9 @@
 class Transfer
-  attr_accessor :transfer, :sender, :reciever, :status
+  attr_accessor 
+  
+  def initialize()
+  
+  end 
   
 
   
