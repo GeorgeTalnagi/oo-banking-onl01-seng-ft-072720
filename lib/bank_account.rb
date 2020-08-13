@@ -26,9 +26,4 @@ attr_reader :name
     @status = "closed"
   end 
 
-
-
-
-
-
 end
