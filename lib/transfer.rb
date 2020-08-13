@@ -14,7 +14,10 @@ class Transfer
   
   def execute_transaction
     #check if sender has enough money to send 
-    @sender  
+    if @sender.balance >= @amount
+      #complete transaction
+      else 
+      
   end 
 
   
