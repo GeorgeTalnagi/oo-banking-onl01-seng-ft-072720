@@ -7,6 +7,10 @@ attr_reader :name
   @balance = 1000
   @status = "open"
   end 
+  
+  def display_balance
+    puts @balance 
+  end 
 
 
 
