@@ -16,7 +16,7 @@ class Transfer
     #check if sender has enough money to send 
     if @sender.balance >= @amount && @status == "pending" && self.valid?
       #complete transaction
-      @sender -= @amount 
+      @sender.balance -= @amount 
       @receiver.deposit(@amount)
       @status = "complete"
       else 
