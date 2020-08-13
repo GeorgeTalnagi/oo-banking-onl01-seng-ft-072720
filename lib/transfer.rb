@@ -13,7 +13,7 @@ class Transfer
   end 
 
   
-  
+  close_account.djwldjw
   
   
 end 
