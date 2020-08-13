@@ -16,7 +16,7 @@ class Transfer
     #check if sender has enough money to send 
     if @sender.balance >= @amount && @status = "pending"
       #complete transaction
-      
+      @receiver += @amount
       @status = "complete"
       else 
         @status = "rejected"
