@@ -22,6 +22,9 @@ attr_reader :name
     @status == "open" && @balance > 0 
   end 
 
+  def close_account 
+    @status = "closed"
+  end 
 
 
 
