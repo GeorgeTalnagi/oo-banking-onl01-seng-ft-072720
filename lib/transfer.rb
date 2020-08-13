@@ -26,7 +26,8 @@ class Transfer
   end 
     
   def reverse_transfer 
-    
+    @sender.balance += @amount 
+    @receiver.deposit(@amount)
   end 
   
   
