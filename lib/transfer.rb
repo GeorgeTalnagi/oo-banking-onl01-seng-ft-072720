@@ -13,7 +13,8 @@ class Transfer
   end 
   
   def execute_transaction
-    @sender 
+    #check if sender has enough money to send 
+    @sender  
   end 
 
   
